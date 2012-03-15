@@ -1,0 +1,31 @@
+<h1>
+  簡支樑公式:：
+</h1>
+FORMULA:
+<hr>
+SigmaMax = (P*W*H**4) / (1920*E*I) *(5-(W/H)**2)**2
+<br/>
+E = 7*10**5
+<hr>
+所求的值為：<%=  @ans %>
+<%= form_tag(:controller=>'welcome',:action=>'index', :method => "post") do %>
+
+<%= label_tag(:sigma_max, "Sigma_Max (最大饒度,，變型量) = ") %>
+ <%= text_field_tag(:sigma_max) %>
+  <br/>
+ <%= label_tag(:p, "P (可以承受的風壓) = ") %>
+  <%= text_field_tag(:p) %>
+   <br/>
+  <%= label_tag(:w, "W(寬度) = ") %>
+  <%= text_field_tag(:w) %>
+  <br/>
+  <%= label_tag(:h, "H(高度) = ") %>
+  <%= text_field_tag(:h) %>
+  <br/>
+  <%= label_tag(:i, "I = ") %>
+  <%= text_field_tag(:i) %>
+  <br/>
+
+ <%= submit_tag("計算") %>
+<% end %>
+
