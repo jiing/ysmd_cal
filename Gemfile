@@ -9,7 +9,7 @@ gem 'rails', '3.1.0'
 
 #gem 'json'
 
-gem "therubyracer-heroku", "~>0.8.0"
+#gem "therubyracer-heroku", "~>0.8.0"
 
 # Gems used only for assets and not required
 # in production environments by default.
