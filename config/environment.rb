@@ -5,5 +5,3 @@ require File.expand_path('../application', __FILE__)
 YsmdCal::Application.initialize!
 
 require "bigdecimal"
-
-Rails.logger = Logger.new(STDOUT)
