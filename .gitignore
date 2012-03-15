@@ -5,7 +5,6 @@ log/*.log
 tmp/
 tmp/**/*
 .sass-cache/
-Gemfile.lock
 doc/api
 doc/app
 *.swp
