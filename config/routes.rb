@@ -1,5 +1,4 @@
 YsmdCal::Application.routes.draw do
-  post "welcome/index"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
